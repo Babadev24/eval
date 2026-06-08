@@ -1,5 +1,5 @@
-{
-  "quiz": [
+[
+  
     {
       "id": 1,
       "question": "Quel fichier est utilisé pour définir l’image Docker à construire ?",
@@ -110,5 +110,5 @@
       ],
       "answer": "Afficher les métadonnées détaillées"
     }
-  ]
-}
+  
+]
