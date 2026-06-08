@@ -1,0 +1,114 @@
+{
+  "quiz": [
+    {
+      "id": 1,
+      "question": "Quel fichier est utilisé pour définir l’image Docker à construire ?",
+      "options": ["Dockerfile", "docker-compose.yml", "image.json", "container.conf"],
+      "answer": "Dockerfile"
+    },
+    {
+      "id": 2,
+      "question": "Quelle commande permet de construire une image Docker ?",
+      "options": ["docker run", "docker build", "docker create", "docker image"],
+      "answer": "docker build"
+    },
+    {
+      "id": 3,
+      "question": "Quelle commande affiche la liste des conteneurs en cours d’exécution ?",
+      "options": ["docker ps", "docker ls", "docker containers", "docker list"],
+      "answer": "docker ps"
+    },
+    {
+      "id": 4,
+      "question": "Quel mot-clé dans un Dockerfile permet de définir l’image de base ?",
+      "options": ["FROM", "BASE", "IMAGE", "ROOT"],
+      "answer": "FROM"
+    },
+    {
+      "id": 5,
+      "question": "Quelle commande permet de supprimer une image Docker ?",
+      "options": ["docker rm", "docker rmi", "docker delete", "docker purge"],
+      "answer": "docker rmi"
+    },
+    {
+      "id": 6,
+      "question": "Quel fichier permet d’orchestrer plusieurs services Docker ?",
+      "options": ["docker-compose.yml", "Dockerfile", "services.json", "stack.yml"],
+      "answer": "docker-compose.yml"
+    },
+    {
+      "id": 7,
+      "question": "Quelle commande permet d’exécuter un conteneur en arrière-plan ?",
+      "options": ["docker run -d", "docker run -bg", "docker start -h", "docker exec -d"],
+      "answer": "docker run -d"
+    },
+    {
+      "id": 8,
+      "question": "Quel est le rôle de la commande `docker exec` ?",
+      "options": [
+        "Construire une image",
+        "Exécuter une commande dans un conteneur",
+        "Créer un réseau Docker",
+        "Lister les volumes"
+      ],
+      "answer": "Exécuter une commande dans un conteneur"
+    },
+    {
+      "id": 9,
+      "question": "Quel est le rôle d’un volume Docker ?",
+      "options": [
+        "Stocker des logs",
+        "Persister des données",
+        "Créer des conteneurs",
+        "Optimiser les images"
+      ],
+      "answer": "Persister des données"
+    },
+    {
+      "id": 10,
+      "question": "Quelle commande permet de télécharger une image depuis Docker Hub ?",
+      "options": ["docker pull", "docker fetch", "docker get", "docker import"],
+      "answer": "docker pull"
+    },
+    {
+      "id": 11,
+      "question": "Quel est le rôle de Docker Hub ?",
+      "options": [
+        "Un système de logs",
+        "Un registre d’images",
+        "Un orchestrateur de conteneurs",
+        "Un outil de monitoring"
+      ],
+      "answer": "Un registre d’images"
+    },
+    {
+      "id": 12,
+      "question": "Quelle commande permet de voir les logs d’un conteneur ?",
+      "options": ["docker logs", "docker view", "docker inspect", "docker output"],
+      "answer": "docker logs"
+    },
+    {
+      "id": 13,
+      "question": "Quel mot-clé Dockerfile permet de copier des fichiers dans l’image ?",
+      "options": ["COPY", "MOVE", "ADD", "IMPORT"],
+      "answer": "COPY"
+    },
+    {
+      "id": 14,
+      "question": "Quelle commande permet d’arrêter un conteneur ?",
+      "options": ["docker stop", "docker kill", "docker end", "docker close"],
+      "answer": "docker stop"
+    },
+    {
+      "id": 15,
+      "question": "Quel est le rôle de la commande `docker inspect` ?",
+      "options": [
+        "Afficher les logs",
+        "Afficher les métadonnées détaillées",
+        "Supprimer un conteneur",
+        "Créer un réseau"
+      ],
+      "answer": "Afficher les métadonnées détaillées"
+    }
+  ]
+}
